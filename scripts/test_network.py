@@ -37,3 +37,10 @@ class TestNetwork:
         self.network_page.click_network()
         self.network_page.click_first_network()
         self.network_page.click_3g_network()
+       # --------------------------
+        #新增6g模块，测试通过。
+    def test_mobile_network_6g(self):
+        self.network_page.click_more()
+        self.network_page.click_network()
+        self.network_page.click_first_network()
+        self.network_page.click_3g_network()
